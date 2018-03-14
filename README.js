@@ -1,10 +1,10 @@
 // ==UserScript==
 
-// @name         hiehie
+// @name         Do expa
 
 // @version      1.0
 
-// @match        http://game9.margonem.pl/
+// @match        http://*.margonem.pl/
 
 // @grant        none
 
@@ -41,7 +41,7 @@ color: "white",
 MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><br/><center><input id="MBob_healerhp" placeholder="%HP<Healer" type="number">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><input id="dropneut" type="checkbox" value="drop">Wyrzucaj neutralne';
-MBob_config.innerHTML = MBob_config.innerHTML + '<center><input id="MBob_maxdrop" placeholder="Max wartoć przedmiotu" type="number">';
+MBob_config.innerHTML = MBob_config.innerHTML + '<center><input id="MBob_maxdrop" placeholder="Max wartość przedmiotu" type="number">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><br/><center><button onclick="MBob.start1()">Start</button>';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><center><button onclick="MBob.stop1()">Stop</button>';
 
